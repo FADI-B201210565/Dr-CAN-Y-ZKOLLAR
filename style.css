@@ -1,0 +1,373 @@
+.container-fluid {
+    background-color: grey;
+    padding-top: 10px;
+    border-radius: 5px;
+  
+}
+
+.resim {
+    height: 700px;
+    border-radius: 10px;
+
+}
+.container {
+ color: black;
+ text-align: center;
+background: blue;
+border: solid 3px red;
+width: 100%;
+height: 180vh;
+font-family: 'Roboto', sans-serif;
+border-radius: 20px;
+font-size: 20px;
+}
+.cizgi {
+    border: none;
+    border-top: 5px solid black ;
+    color: black;
+
+}
+.hakkımda {
+    background: grey;
+    font-size: 20px;
+    border: solid 2px blue;
+    height: 80vh;
+
+
+}
+.hobi {
+    background: blue;
+    font-size: 20px;
+    border: solid 2px red;
+    height: 200vh;
+
+
+}
+.hob {
+    height: 400px;
+    
+   
+}
+
+
+
+.hob>:hover {
+    opacity: 0.6;
+
+
+}
+.buttons button{
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    border: solid 2px blue;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+
+}
+.buttons button:hover{
+background: red;
+
+
+}
+
+.icindekiler  {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: grey;
+    
+    border: solid 2px blue;
+    height: 100vh;
+
+}
+
+
+.bilgi {
+    background: grey;
+    font-size: 20px;
+    border: solid 2px blue;
+    height: 100vh;
+}
+
+.tarihce {
+    color: black;
+    height: 200vh;
+    font-size: 20px;
+  background: blue;
+    
+}
+
+.gezi {
+    background: grey;
+    font-size: 20px;
+    border: solid 2px blue;
+    height: 200vh;
+}
+
+
+.yemek {
+    background: grey;
+    font-size: 20px;
+    border: solid 2px blue;
+
+
+}
+
+.takım {
+   height: 200vh ; 
+   font-size: 20px;
+   font-family: 'Roboto' sans-serif;
+}
+
+.arma {
+    background:grey;
+    font-size: 20px;
+    border: solid 2px blue;
+    height: 180vh ; 
+
+}
+.kapali {
+  
+    font-size: 20px;
+    border: solid 3px  red;
+    height:  200vh ; 
+
+}
+.ilgilialan {
+
+    font-size: 20px;
+    border: solid 3px  red;
+    height:  120vh ; 
+
+
+}
+.özgecmis {
+    background:blue;
+    font-size: 20px;
+    border: solid 3px  red;
+    height:  120vh ; 
+
+}
+body
+{
+    background: url(duvarkağıdı.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width:950px)
+{
+
+table 
+{
+    background: blue;
+    opacity: 0.8;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: hsl(182, 58%, 52%);
+}
+.ustmenu
+{
+    background-color: blue;
+    padding-top: 40px;
+    border-radius: 5px;
+    margin-top: 10;
+    margin-left: 10;
+}
+.ustmenu ul
+{
+    color: black;
+    background: blue;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+.ustmenu li 
+{
+    
+    float: left;
+    
+}
+.ustmenu li a 
+{
+    display: block;
+    padding:12px 16px;
+    color:black;
+    text-decoration:none; 
+    opacity: 0.7;
+}
+.ustmenu li a:hover
+{
+     color: hsl(182, 58%, 52%);
+}
+td
+{
+    text-align: left;
+    padding: 3 3 3 3;
+}
+
+
+
+.sosyal > a > img
+{
+   
+    float: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+p
+{
+    color: hsl(182, 58%, 52%);
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+}
+@media screen and (max-width:950px)
+{
+     table 
+    {
+        background-color: grey;
+    opacity: 0.8;
+    margin:auto;
+    margin-left: 25%;
+    font-size: 20px;
+    color: hsl(182, 58%, 52%);
+    }
+    ul
+    {
+        list-style-type: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    li a 
+    {
+
+        display: block;
+        padding:12px 16px;
+        color:hsl(182, 58%, 52%);
+        text-decoration:none; 
+    }
+    li a:hover
+    {
+        background-color:hsl(182, 58%, 52%); 
+        color: black;
+        opacity: 0.5;
+    }
+    
+    
+    td
+    {
+    text-align: left;
+    padding: 3 3 3 3;
+    }
+    p
+    {
+        color: hsl(182, 58%, 52%);
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+body
+{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+@media screen and (min-width:900px)
+{
+table
+{
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+ul
+{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    padding:12px 16px;
+    color:#ffffff;
+    text-decoration:none; 
+}
+li a:hover
+{
+    background-color:#ffffff; 
+    color: #000000;
+    opacity: 0.5;
+}
+.ustmenu
+{
+    margin-top: 10;
+    margin-left: 10;
+}
+}
+@media screen and (max-width:900px)
+{
+    table
+    {
+    font-size: 25px;
+    color: aliceblue;
+    margin:20% auto;
+    }
+    ul
+    {
+        list-style-type: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    li a 
+    {
+        display: block;
+        padding:12px 16px;
+        color:#ffffff;
+        text-decoration:none; 
+    }
+    li a:hover
+    {
+        background-color:#ffffff; 
+        color: #000000;
+        opacity: 0.5;
+    }
+    .ustmenu
+    {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+}
+
+
+
+
+
+
+
+
+
